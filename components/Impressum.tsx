@@ -28,8 +28,7 @@ const Impressum: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold text-dark mb-2">Umsatzsteuer-ID</h3>
             <p>
-              Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-              DE 123 456 789
+              Platzhalter
             </p>
           </div>
 
