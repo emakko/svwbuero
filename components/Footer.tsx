@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
@@ -27,9 +27,7 @@ const Footer: React.FC = () => {
               Vertrauen Sie auf Kompetenz und Fairness.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-400 hover:text-teal-500 transition-colors bg-gray-800 p-2 rounded-full"><Facebook size={18} /></a>
-              <a href="#" className="text-gray-400 hover:text-teal-500 transition-colors bg-gray-800 p-2 rounded-full"><Instagram size={18} /></a>
-              <a href="#" className="text-gray-400 hover:text-teal-500 transition-colors bg-gray-800 p-2 rounded-full"><Linkedin size={18} /></a>
+              <a href="https://www.linkedin.com/in/michael-wienecke-9454aa136/" className="text-gray-400 hover:text-teal-500 transition-colors bg-gray-800 p-2 rounded-full"><Linkedin size={18} /></a>
             </div>
           </div>
 
@@ -49,16 +47,16 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-bold mb-6">Schnellkontakt</h4>
             <div className="text-sm text-gray-400 space-y-4">
               <div className="flex items-start gap-3">
-                 <span className="block w-16 text-gray-500 flex-shrink-0">Büro:</span>
-                 <span>Musterstraße 42<br/>12345 Musterstadt</span>
+                 <span className="block w-16 text-gray-500 flex-shrink-0">Anschrift:</span>
+                 <span>Pirolring 1, 45472 Mülheim an der Ruhr</span>
               </div>
               <div className="flex items-center gap-3">
                  <span className="block w-16 text-gray-500 flex-shrink-0">Tel:</span>
-                 <a href="tel:0123456789" className="text-white font-medium hover:text-teal-500">0123 456 789</a>
+                 <a href="tel:0171 3259698" className="text-white font-medium hover:text-teal-500">0171 3259698</a>
               </div>
               <div className="flex items-center gap-3">
-                 <span className="block w-16 text-gray-500 flex-shrink-0">Mail:</span>
-                 <a href="mailto:info@kfz-expert.de" className="hover:text-teal-500">info@kfz-expert.de</a>
+                 <span className="block w-16 text-gray-500 flex-shrink-0">Mail: </span>
+                 <a href="mailto:info@kfz-expert.de" className="hover:text-teal-500">m.wienecke@svw-gmbh.de</a>
               </div>
             </div>
           </div>
@@ -67,9 +65,6 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           <p className="text-gray-500 text-sm">
             &copy; {new Date().getFullYear()} Sachverständigenbüro Michael Wienecke. Alle Rechte vorbehalten.
-          </p>
-          <p className="text-gray-600 text-xs">
-            Designed for Excellence.
           </p>
         </div>
       </div>

@@ -130,10 +130,10 @@ const Process: React.FC = () => {
                 </div>
                 
                 {/* --- TEXT CONTENT --- */}
-                <h3 className={`text-xl font-bold mb-3 transition-colors duration-300 ${isHovered ? 'text-teal-600' : 'text-dark'}`}>
+                <h3 className="text-xl font-bold mb-3 text-dark">
                   <span className="inline-block mr-1 text-magenta">
                     {step.id}.
-                  </span> 
+                  </span>
                   {step.title}
                 </h3>
                 

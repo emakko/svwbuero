@@ -40,7 +40,7 @@ const Certificates: React.FC = () => {
     <section className="py-16 md:py-24 bg-white min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading 
-          title="Zertifizierungen und Aufzeichnungen" 
+          title="Zertifizierungen" 
           subtitle="Qualität durch Kompetenz, geprüfte Standards und stetige Weiterbildung."
         />
         
@@ -82,7 +82,7 @@ const Certificates: React.FC = () => {
                 Als unabhängiger KFZ-Gutachter ist fachliche Kompetenz das Fundament meiner Arbeit. Durch regelmäßige Fortbildungen und Prüfungen stelle ich sicher, dass meine Gutachten stets den aktuellen technischen und rechtlichen Standards entsprechen. Dies garantiert Ihnen maximale Sicherheit bei der Durchsetzung Ihrer Ansprüche.
             </p>
             <div className="inline-block px-4 py-2 bg-white border border-teal-200 rounded-full text-teal-700 font-medium text-sm">
-                Geprüfte Qualität seit über 25 Jahren
+                Geprüfte Qualität seit über 32 Jahren
             </div>
         </div>
       </div>

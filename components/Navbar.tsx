@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
               </Link>
             ))}
             <a 
-              href="tel:+49123456789" 
+              href="tel:0171 3259698" 
               className={`flex items-center gap-2 px-4 py-2 rounded-full border transition-all group ${
                 showSolidBackground 
                 ? 'border-teal-500 text-teal-600 hover:bg-teal-50 hover:border-magenta hover:text-magenta' 
@@ -107,7 +107,7 @@ const Navbar: React.FC = () => {
           ))}
           <div className="pt-6 mt-4 border-t border-gray-200">
              <a 
-              href="tel:+49123456789" 
+              href="tel:0171 3259698" 
               className="flex items-center justify-center gap-3 px-6 py-4 bg-teal-500 text-white rounded-xl w-full font-bold shadow-lg hover:bg-teal-600 active:scale-[0.98] transition-all"
             >
               <Phone size={20} className="text-white" />

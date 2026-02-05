@@ -12,23 +12,23 @@ const Impressum: React.FC = () => {
             <h3 className="text-xl font-bold text-dark mb-2">Angaben gemäß § 5 TMG</h3>
             <p>
               Sachverständigenbüro Michael Wienecke<br />
-              Musterstraße 42<br />
-              12345 Musterstadt
+              Pirolring 1<br />
+              45472 Mülheim an der Ruhr
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-dark mb-2">Kontakt</h3>
             <p>
-              Telefon: 0123 456 789<br />
-              E-Mail: info@kfz-expert.de
+              Telefon: 0171 3259698<br />
+              E-Mail: m.wienecke@svw-gmbh.de
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-dark mb-2">Umsatzsteuer-ID</h3>
             <p>
-              Platzhalter
+              TODO
             </p>
           </div>
 
@@ -36,7 +36,7 @@ const Impressum: React.FC = () => {
             <h3 className="text-xl font-bold text-dark mb-2">Berufsbezeichnung und berufsrechtliche Regelungen</h3>
             <p>
               <strong>Berufsbezeichnung:</strong> KFZ-Sachverständiger (verliehen in der Bundesrepublik Deutschland)<br />
-              <strong>Zuständige Kammer:</strong> Handwerkskammer Musterstadt<br />
+              <strong>Zuständige Kammer:</strong> Handwerkskammer Mülheim an der Ruhr<br />
             </p>
           </div>
 

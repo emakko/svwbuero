@@ -97,7 +97,7 @@ const Hero: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start animate-fade-in-up" style={{ animationDelay: '300ms' }}>
-            <a href="tel:+49123456789" className="w-full sm:w-auto">
+            <a href="tel:0171 3259698" className="w-full sm:w-auto">
                 <Button variant="primary" fullWidth className="text-base py-3.5 sm:py-4">
                 Jetzt anrufen
                 </Button>

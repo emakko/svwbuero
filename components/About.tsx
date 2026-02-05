@@ -102,7 +102,7 @@ const About: React.FC = () => {
             <div>
               <Link to="/zertifikate" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="gap-2 group">
-                  Zertifizierungen und Aufzeichnungen
+                  Zertifizierungen
                   <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>

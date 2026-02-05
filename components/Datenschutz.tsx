@@ -32,7 +32,7 @@ const Datenschutz: React.FC = () => {
             Sachverständigenbüro Michael Wienecke<br/>
             Musterstraße 42<br/>
             12345 Musterstadt<br/>
-            E-Mail: info@kfz-expert.de
+            E-Mail: m.wienecke@svw-gmbh.de
           </p>
 
           <h3 className="text-xl font-bold text-dark mt-6">4. Datenerfassung auf dieser Website</h3>
