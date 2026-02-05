@@ -44,7 +44,7 @@ const About: React.FC = () => {
             <div className="hidden md:block absolute -bottom-4 -right-4 w-32 h-32 bg-gray-200 rounded-full z-0"></div>
             
             <img 
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+              src="/images/about/portrait.png" 
               alt="Michael Wienecke - KFZ Gutachter" 
               className="relative z-10 rounded-2xl shadow-xl w-full h-auto object-cover aspect-[4/5] md:aspect-auto"
             />
