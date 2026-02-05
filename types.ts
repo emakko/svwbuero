@@ -11,10 +11,3 @@ export interface StepItem {
   title: string;
   description: string;
 }
-
-export interface ChatMessage {
-  id: string;
-  role: 'user' | 'model';
-  text: string;
-  timestamp: Date;
-}
