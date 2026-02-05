@@ -1,0 +1,37 @@
+.services-watermark {
+  position: relative;
+  overflow: hidden;
+}
+
+.services-watermark::before {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+
+  /* This is the "SVG" */
+  background-image: url("/watermark.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.1;
+
+  /* Recreate your old layout */
+  width: 140%;
+  aspect-ratio: 612 / 408;
+  right: -20%;
+  bottom: -20%;
+
+  /* Recreate -rotate-12 */
+  transform: rotate(-12deg);
+  transform-origin: center;
+  opacity: 0.15;  
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+  .services-watermark::before {
+    width: 70%;
+    right: -10%;
+    bottom: -20%;
+  }
+}
