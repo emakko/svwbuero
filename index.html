@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sachverständigenbüro Michael Wienecke | Ihr unabhängiger Experte</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              teal: {
+                DEFAULT: '#00af8c',
+                50: '#e0fbf6',
+                100: '#b3f2e4',
+                200: '#80e9d2',
+                300: '#4de0bf',
+                400: '#26d9b0',
+                500: '#00af8c', // Base color
+                600: '#008c70',
+                700: '#006954',
+                800: '#004638',
+                900: '#00231c',
+              },
+              dark: '#222222',
+              magenta: '#da007f',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            animation: {
+              'fade-in-down': 'fadeInDown 0.3s ease-out forwards',
+              'fade-in-up': 'fadeInUp 0.3s ease-out forwards',
+            },
+            keyframes: {
+              fadeInDown: {
+                '0%': { opacity: '0', transform: 'translateY(-10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Smooth scrolling for anchor links and offset for fixed navbar */
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 80px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.3.1",
+    "react/": "https://esm.sh/react@18.3.1/",
+    "react-dom": "https://esm.sh/react-dom@18.3.1",
+    "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.22.3?deps=react@18.3.1,react-dom@18.3.1",
+    "react-router": "https://esm.sh/react-router@6.22.3?deps=react@18.3.1,react-dom@18.3.1",
+    "react-google-recaptcha": "https://esm.sh/react-google-recaptcha@3.1.0?deps=react@18.3.1,react-dom@18.3.1",
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0?deps=react@18.3.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 text-dark font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+  </body>
+</html>
