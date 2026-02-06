@@ -26,17 +26,17 @@ const Impressum: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-xl font-bold text-dark mb-2">Umsatzsteuer-ID</h3>
+            <h3 className="text-xl font-bold text-dark mb-2">Steuer-Nr.</h3>
             <p>
-              TODO
+              120/5305/2880
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-dark mb-2">Berufsbezeichnung und berufsrechtliche Regelungen</h3>
             <p>
-              <strong>Berufsbezeichnung:</strong> KFZ-Sachverständiger (verliehen in der Bundesrepublik Deutschland)<br />
-              <strong>Zuständige Kammer:</strong> Handwerkskammer Mülheim an der Ruhr<br />
+              <strong>Berufsbezeichnung:</strong> Kfz-ccSachverständiger für Schaden- und Wertgutachten (verliehen in der Bundesrepublik Deutschland)<br />
+              <strong>Zuständige Kammer:</strong> Industrie- und Handelskammer für Essen, Mülheim an der Ruhr, Oberhausen zu Essen <br />
             </p>
           </div>
 

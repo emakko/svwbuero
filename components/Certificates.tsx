@@ -42,7 +42,7 @@ const certificates = [
     pdfUrl: "/documents/pdf/page4.pdf",
   },
   {
-    title: "Produktschulung Aufbauten (Nutzfahrzeuge)",
+    title: "Produktschulung Aufbauten (Nutzfahrzeuge / Müllsammelfahrzeuge)",
     issuer: "FAUN",
     year: "2016",
     icon: <FileCheck size={40} className="text-teal-500" />,
@@ -56,7 +56,7 @@ const certificates = [
     pdfUrl: "/documents/pdf/page11.pdf",
   },
   {
-    title: "Fachkunde für Arbeiten an HV-eigensicheren Systemen",
+    title: "Hochvolt-Schulung: Fachkunde für Arbeiten an HV-eigensicheren Systemen",
     issuer: "TAK",
     year: "2015",
     icon: <Award size={40} className="text-teal-500" />,

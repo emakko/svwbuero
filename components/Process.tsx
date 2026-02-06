@@ -7,7 +7,7 @@ const steps: StepItem[] = [
   { id: 1, title: 'Kontakt aufnehmen', description: 'Rufen Sie uns an. Wir beraten Sie sofort kostenlos.' },
   { id: 2, title: 'Fahrzeugbesichtigung', description: 'Wir besichtigen Ihr Fahrzeug bei Ihnen vor Ort, in der Werkstatt oder bei uns.' },
   { id: 3, title: 'Gutachtenerstellung', description: 'Wir erstellen ein detailliertes Gutachten mit Fotos und Schadenskalkulation.' },
-  { id: 4, title: 'Abwicklung & Auszahlung', description: 'Versand an die Versicherung und Anwalt. Sie erhalten Ihr Geld.' },
+  { id: 4, title: 'Abwicklung & Auszahlung', description: 'Versand an die Versicherung und Anwalt.' },
 ];
 
 const icons = [Phone, Search, FileSignature, HandCoins];
@@ -53,7 +53,7 @@ const Process: React.FC = () => {
       >
         <SectionHeading 
           title="Der Ablauf" 
-          subtitle="In nur 4 Schritten zu Ihrem Recht – wir kümmern uns um alles."
+          subtitle="In nur 4 Schritten zu Ihrem Recht – wir helfen ihnen gerne Ihren Schaden stressfrei reguliert zu bekommen."
           light={false}
         />
 

@@ -42,6 +42,7 @@ const AGB: React.FC = () => {
 
           <h3 className="text-lg font-bold text-dark mt-4">7. Gerichtsstand</h3>
           <p>
+            TODO
             Gerichtsstand ist, soweit gesetzlich zulässig, der Sitz des Sachverständigenbüros (Musterstadt).
           </p>
         </div>

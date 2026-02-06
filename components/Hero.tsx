@@ -6,9 +6,11 @@ const backgroundimages = [
   "/documents/images/hero/unfall.png",
   "/documents/images/hero/pkw.png",
   "/documents/images/hero/motorrad.png",
-  "/documents/images/hero/betriebs.png",
+  "/documents/images/hero/ferrariporsche.png",
   "/documents/images/hero/nf.png",
-  "/documents/images/hero/sf.png",
+  // "/documents/images/hero/sf.png",
+  "/documents/images/hero/mitnstapler.png",
+  "/documents/images/hero/mitnstapler2.png",
 ];
 
 const Hero: React.FC = () => {
