@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
 import Button from './Button';
 
-const backgroundImages = [
-  "/images/hero/unfall.png",
-  "/images/hero/pkw.png",
-  "/images/hero/motorrad.png",
-  "/images/hero/betriebs.png",
-  "/images/hero/nf.png",
-  "/images/hero/sf.png",
+const backgroundimages = [
+  "/documents/images/hero/unfall.png",
+  "/documents/images/hero/pkw.png",
+  "/documents/images/hero/motorrad.png",
+  "/documents/images/hero/betriebs.png",
+  "/documents/images/hero/nf.png",
+  "/documents/images/hero/sf.png",
 ];
 
 const Hero: React.FC = () => {
@@ -16,23 +16,23 @@ const Hero: React.FC = () => {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % backgroundImages.length);
+      setCurrentSlide((prev) => (prev + 1) % backgroundimages.length);
     }, 7000);
     return () => clearInterval(timer);
   }, [currentSlide]);
 
   const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % backgroundImages.length);
+    setCurrentSlide((prev) => (prev + 1) % backgroundimages.length);
   };
 
   const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + backgroundImages.length) % backgroundImages.length);
+    setCurrentSlide((prev) => (prev - 1 + backgroundimages.length) % backgroundimages.length);
   };
 
   return (
     <section id="home" className="relative h-[100dvh] min-h-[600px] flex items-center justify-center overflow-hidden group">
-      {/* Background Images Slider */}
-      {backgroundImages.map((img, index) => (
+      {/* Background images Slider */}
+      {backgroundimages.map((img, index) => (
         <div 
           key={index}
           className={`absolute inset-0 z-0 transition-opacity duration-1000 ease-in-out ${
@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
 
       {/* Pagination Dots */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 flex space-x-3">
-        {backgroundImages.map((_, index) => (
+        {backgroundimages.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
