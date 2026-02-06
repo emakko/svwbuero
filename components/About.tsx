@@ -44,7 +44,7 @@ const About: React.FC = () => {
             <div className="hidden md:block absolute -bottom-4 -right-4 w-32 h-32 bg-gray-200 rounded-full z-0"></div>
             
             <img 
-              src="/documents/images/about/portrait.png" 
+              src="/documents/images/about/102.png" 
               alt="Michael Wienecke - KFZ Gutachter" 
               className="relative z-10 rounded-2xl shadow-xl w-full h-auto object-cover aspect-[4/5] md:aspect-auto"
             />
@@ -62,7 +62,7 @@ const About: React.FC = () => {
           {/* Text Side */}
           <div className="w-full lg:w-1/2 pt-4 lg:pt-0">
             <h4 className="text-teal-600 font-semibold tracking-wider uppercase mb-2 text-sm md:text-base flex items-center gap-2">
-              <span className="w-8 h-[2px] bg-magenta"></span> Ihr Experte
+              <span className="w-8 h-[2px] bg-magenta"></span> Ihr Experte seit 1994
             </h4>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-dark mb-4 md:mb-6">
               Michael Wienecke
