@@ -3,3 +3,5 @@ Loobeerkranz bei Zertifikaten untern und bei About me implementieren
 Möglicherweise andere Bilder in der Hero?
 Giraffe soll fest im Bild verankert sein und mit jedem hover sich bewegen
 -> erscheint erst im tab leistungen und soll nicht in hero eingeblendet werden
+
+Logo oben links größer machen
