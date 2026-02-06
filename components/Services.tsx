@@ -11,7 +11,7 @@ const services: ServiceItem[] = [
   },
   {
     title: "Oldtimerbewertung",
-    description: "Spezialisierte Bewertung (Classic Data) für die Versicherungseinstufung Ihres klassischen Fahrzeugs.",
+    description: "Spezialisierte Bewertung für die Versicherungseinstufung Ihres klassischen Fahrzeugs.",
     icon: <Scale size={28} />
   }
 ];

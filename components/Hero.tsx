@@ -3,10 +3,12 @@ import { ChevronRight, ChevronLeft } from 'lucide-react';
 import Button from './Button';
 
 const backgroundImages = [
-  "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-  "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-  "https://images.unsplash.com/photo-1486262715619-72a604e3d7b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-  "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+  "/images/hero/unfall.png",
+  "/images/hero/pkw.png",
+  "/images/hero/motorrad.png",
+  "/images/hero/betriebs.png",
+  "/images/hero/nf.png",
+  "/images/hero/sf.png",
 ];
 
 const Hero: React.FC = () => {

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const CookieBanner: React.FC = () => {

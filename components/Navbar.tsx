@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
               }`}
             >
               <Phone size={16} className={`transition-colors ${showSolidBackground ? 'text-magenta' : 'group-hover:text-magenta'}`} />
-              <span>0123 456 789</span>
+              <span>0171 3259698</span>
             </a>
           </div>
 
@@ -111,7 +111,7 @@ const Navbar: React.FC = () => {
               className="flex items-center justify-center gap-3 px-6 py-4 bg-teal-500 text-white rounded-xl w-full font-bold shadow-lg hover:bg-teal-600 active:scale-[0.98] transition-all"
             >
               <Phone size={20} className="text-white" />
-              0123 456 789 Anrufen
+              0171 3259698 Anrufen
             </a>
           </div>
         </div>
