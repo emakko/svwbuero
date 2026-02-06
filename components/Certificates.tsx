@@ -187,7 +187,7 @@ const Certificates: React.FC = () => {
         <div className="mt-16 bg-gradient-to-br from-teal-50 to-white border border-teal-100 rounded-2xl p-8 md:p-12 text-center max-w-4xl mx-auto shadow-sm">
             <h4 className="text-2xl font-bold text-dark mb-4">Warum ist das für Sie wichtig?</h4>
             <p className="text-gray-700 leading-relaxed text-lg mb-6">
-                Als unabhängiger KFZ-Gutachter ist fachliche Kompetenz das Fundament meiner Arbeit...
+              Als unabhängiger KFZ-Gutachter ist fachliche Kompetenz das Fundament meiner Arbeit. Durch regelmäßige Fortbildungen und Prüfungen stelle ich sicher, dass meine Gutachten stets den aktuellen technischen und rechtlichen Standards entsprechen. Dies garantiert Ihnen maximale Sicherheit bei der Durchsetzung Ihrer Ansprüche.
             </p>
             <div className="inline-block px-4 py-2 bg-white border border-teal-200 rounded-full text-teal-700 font-medium text-sm">
                 Geprüfte Qualität seit über 32 Jahren
